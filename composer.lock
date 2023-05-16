@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "20b525289b44f472a62bf259cd4fcf4e",
+    "packages": [
+        {
+            "name": "webneex/nusoap",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fcarribero/nusoap.git",
+                "reference": "eca8505f434650e74fb9e7e4f24330f6be9c8199"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fcarribero/nusoap/zipball/eca8505f434650e74fb9e7e4f24330f6be9c8199",
+                "reference": "eca8505f434650e74fb9e7e4f24330f6be9c8199",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-xml": "*",
+                "ext-zlib": "*",
+                "php": "^5.6|>=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Francisco Carribero",
+                    "email": "francisco.carribero@webneex.com"
+                }
+            ],
+            "description": "NuSOAP - SOAP Toolkit for PHP (Without gzip compression stuff)",
+            "support": {
+                "issues": "https://github.com/fcarribero/nusoap/issues",
+                "source": "https://github.com/fcarribero/nusoap/tree/v1.0.3"
+            },
+            "time": "2023-03-14T19:22:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
